@@ -1,6 +1,6 @@
 ---
-title: "Contact POG"
-description : "Feel free to ask us about organic farming or to inquire about membership"
+title: "Contact Us"
+description : "Feel free to ask us about farming or to inquire about the weekend market"
 ---
 
 <!-- 
