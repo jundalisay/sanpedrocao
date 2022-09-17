@@ -1,0 +1,208 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "San Pedro City Agriculture Office (CAO)"
+  content: "Busugin ang Mata, Tiyan, at Bulsa -- Fill your eyes, stomach, and wallet"
+  image : "/photos/farm.jpg"
+  button1:
+    enable : true
+    label : "View Our Services"
+    link : "/services"
+
+
+  # demo video
+  video:
+    enable : true
+    btntxt: "See what the San Pedro CAO does"
+    # videoURL : "https://www.youtube.com/embed/oN79S5f96qk"
+    # aWYWcJZoqBM"
+    # Lin recommend https://youtu.be/hAWOU9Kw1bo
+
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Our Mission"
+  content : "<p>We promote local agriculture and the livelihood and welfare of local people</p>"
+  image : "/photos/kadiwa09.jpg"
+
+
+
+######################## Promo Video ##########################
+video:
+  enable : true
+  title : "On the forefront of the fight against the food crisis"
+  content: "<p>We work non-stop to ensure food security for San Pedro Laguna.</p>
+  " 
+  # <p>Cebuanos have been well-known for roasting lechon in a way that is flavorful, tasty, and mouth-watering, 
+  # with meat that is tender, juicy, and aromatic, with a crispy-skin.</p>"    
+  # content : "To establish a sustainable animal shelter and build a community where people care for animals and treat them with respect and kindness."
+  # Angel's Shelter is an holistic animal shelter in Laguna. Holistic means that we don't only do animal resuce and adoption, but also community-building events, healthy eating, humanistic learning, and social work"
+  videoThumb : "/photos/kadiwatruck.jpg"
+  # videoURL : "https://www.youtube.com/embed/TyM66AMwOlk"
+
+  # "https://www.youtube.com/embed/bkabicdixSM"
+  # videoURL : "https://www.youtube.com/embed/VSaoTSxSvw0"
+
+
+# compare:
+#   enable : true
+#   title : "Compare our Prices"
+#   subtitle : "Our unique procurement system lets us have lower costs which leads to lower prices for our customers."
+#   items:
+#     - name: "Lechon Espesyal"
+#       content: "<span class='text-danger'>1 kg @ 1,400 pesos<br>500 grams @ 700 pesos<br>250 grams @ 350 pesos<br>-</span>"
+#       image: "/icons/l.jpg"      
+#     - name: "Cebu Lechon"
+#       content: "<span class='text-danger'>1 kg @ 1,300 pesos<br>500 grams @ 675 pesos<br>250 grams @ 350 pesos<br>-</span>"
+#       image: "/icons/r.jpg"          
+#     - name: "Cebu Lechon"
+#       content: "<span class='text-primary'>1 kg @ 1,000 pesos<br>500 grams @ 550 pesos<br>250 grams @ 300 pesos<br>125 grams @ 150 pesos</span>"
+#       image: "logoblue.jpg"
+
+###################### Call to action ########################
+
+cta:
+  enable : true
+  title : "Visit the Sibol Weekend Market at City Hall"
+  content : "The Sibol Weekend Market, as 'The San Pedro Weekend Bazaar', is open every Friday from 7AM to 5PM"
+  # content : "KADIWA means Katuwang sa Diwa at sa Gawa para sa Masaganang Ani at Mataas na Kita"
+  image : "/photos/sibol400.jpg"
+  # overlayImage : "images/cta-overlay.png"
+  # button:
+  #   label : "View details"
+  #   link : "/graphics/elivirsopening.jpg"
+
+# cta2:
+#   enable : true
+#   title : "Both for Buyers and Sellers"
+#   content : "Are you looking for a specific type of property? Post it here"
+#   image : "/photos/looking.jpg"
+# #   # overlayImage : "images/cta-overlay.png"
+#   button:
+#     label : "Tell us what you're looking for"
+#     link : "/contact"
+
+# cta3:
+#   enable : true
+#   title : "We Support the Pantrypoints System"
+#   content : "We can do property-related tasks for you without you spending any money"
+#   image : "/graphics/mobile.jpg"
+#   button:
+#    label : "What's Pantrypoints?"
+#    link : "https://pantrypoints.com"
+
+# cta4:
+#   enable : true
+#   title : "Whole Lechon available"
+#   content : "Call +63 969 436 0497 to order"
+#   image : "/photos/lechon.jpg"
+#   # overlayImage : "images/cta-overlay.png"
+#   button:
+#     label : "View flyer"
+#     link : "/promo.jpg"
+
+
+
+######################## raw material #######################
+events:
+  enable : false
+  title : "Recent Events"
+  # subtitle : "Get all that you need"
+  eventItem:
+    # material item loop
+    - title : "T-shirt silkscreen"
+      link: "/events/"
+      image : "e/220331g.jpg"
+      content : "Mr. Panya dropped by during our art class"
+      
+
+
+dishes:
+  enable : true
+  title : "The Popular Produce at the San Pedro Weekend Bazaar"
+  subtitle: "Ask us for orders or learn how to grow them yourselves"
+  items :
+    - name: "Tomatoes" 
+      image: "/photos/tomato.jpg"
+      description: "By The San Pedro Fish and Vegetable Vendors Association"
+      link: "/products/tomatoes"
+    - name: "Native Red Onion"
+      image: "/photos/redonion.jpg"
+      description: "By Luntian MPC"      
+      link: "/products/red-onions"
+    - name: "Potatoes" 
+      image: "/photos/potatoes.jpg"
+      description: "By The Rosario Livestock and Agriculture Farming Cooperative"
+      link: "/products/potatoes"      
+
+
+
+########################### Advantage #########################
+
+advantage:
+  enable : false
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+
+######################## Products #############################
+services:
+  enable : false
+  title : "Our Menu"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "Meet Your Agriculture Officers"
+  testimonialItem:
+    - name : "Engineer King Layola"
+      image : "avatars/blankavatar.png" # size 100px*100px
+      designation : "Head"
+      content : "Engineer Layola graduated with an engineering degree and has passionately worked in agriculture for many years."
+      linkedin: "https://linkedin.com"      
+      # rating : "five" # rating star, one to five
+            
+    - name : "Staff"
+      image : "avatars/blankavatar.png" # size 100px*100px
+      designation : "Staff"
+      content : "Staff"
+      linkedin: "https://linkedin.com"      
+      # rating : "five" # rating star, one to five
+
+    - name : "Staff"
+      image : "avatars/blankavatar.png" # size 100px*100px
+      designation : "Staff"
+      content : "Staff"
+      linkedin: "https://linkedin.com"      
+      # rating : "five" # rating star, one to five                  
+    # - name : "John"
+    #   image : "avatars/john.jpg" # size 100px*100px
+    #   designation : "English Teacher"
+    #   content : "I buy fish from Savilas because they care about the environment"
+    #   rating : "four" # rating star, one to five
+      
+    # - name : "Lam"
+    #   image : "avatars/lam.jpg" # size 100px*100px
+    #   designation : "Student"
+    #   content : "We learned how to grow lettuce and earn money from it"
+    #   rating : "four" # rating star, one to five
+      
+    # - name : "Juan"
+    #   image : "avatars/jun.jpg" # size 100px*100px
+    #   designation : "Web Developer"
+    #   content : " diners."
+    #   rating : "four" # rating star, one to five
+      
