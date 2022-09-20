@@ -1,4 +1,5 @@
 ---
-title: "Our Services"
-description : "We do agricultural services for San Pedro Citizens"
+title: "Our Products"
+description : "We provide and sell products for farmers and gardeners"
 ---
+
