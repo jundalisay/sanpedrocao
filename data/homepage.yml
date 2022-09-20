@@ -2,8 +2,10 @@
 banner:
   enable : true
   title : "San Pedro City Agriculture Office (CAO)"
-  content: "Busugin ang Mata, Tiyan, at Bulsa -- Fill your eyes, stomach, and wallet"
-  image : "/photos/farm.jpg"
+  content: "Una sa Agrikultura, Bida sa Sampaguita -- First at Agriculture, The Best at Sampaguita"
+  image: "/photos/hydro02f.jpg"
+  # image : "/graphics/kadiwaposter.jpg"
+    # "/photos/farm.jpg"
   button1:
     enable : true
     label : "View Our Services"
@@ -66,31 +68,32 @@ cta:
   enable : true
   title : "Visit the Sibol Weekend Market at City Hall"
   content : "The Sibol Weekend Market, as 'The San Pedro Weekend Bazaar', is open every Friday from 7AM to 5PM"
+  image: "/graphics/kadiwaposter400.jpg"
   # content : "KADIWA means Katuwang sa Diwa at sa Gawa para sa Masaganang Ani at Mataas na Kita"
-  image : "/photos/sibol400.jpg"
+  # image : "/photos/sibol400.jpg"
   # overlayImage : "images/cta-overlay.png"
   # button:
   #   label : "View details"
   #   link : "/graphics/elivirsopening.jpg"
 
-# cta2:
-#   enable : true
-#   title : "Both for Buyers and Sellers"
-#   content : "Are you looking for a specific type of property? Post it here"
-#   image : "/photos/looking.jpg"
-# #   # overlayImage : "images/cta-overlay.png"
-#   button:
-#     label : "Tell us what you're looking for"
-#     link : "/contact"
+cta2:
+  enable : true
+  title : "Both for Buyers and Sellers"
+  content : "Are you looking for a specific type of property? Post it here"
+  image : "/photos/looking.jpg"
+#   # overlayImage : "images/cta-overlay.png"
+  button:
+    label : "Tell us what you're looking for"
+    link : "/contact"
 
-# cta3:
-#   enable : true
-#   title : "We Support the Pantrypoints System"
-#   content : "We can do property-related tasks for you without you spending any money"
-#   image : "/graphics/mobile.jpg"
-#   button:
-#    label : "What's Pantrypoints?"
-#    link : "https://pantrypoints.com"
+cta3:
+  enable : true
+  title : "We Support the Pantrypoints System"
+  content : "We can do property-related tasks for you without you spending any money"
+  image : "/graphics/mobile.jpg"
+  button:
+   label : "What's Pantrypoints?"
+   link : "https://pantrypoints.com"
 
 # cta4:
 #   enable : true

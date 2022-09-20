@@ -68,10 +68,6 @@
   {{ end }}
   <!-- /about -->
 
-  {{ if .Site.Data.homepage.cta2.enable }}
-    {{ partial "cta2.html" . }}
-  {{ end }}
-
 
 
   <!-- promo video -->
@@ -109,7 +105,9 @@
   <!-- /promo video -->
 
 
-
+  {{ if .Site.Data.homepage.cta2.enable }}
+    {{ partial "cta2.html" . }}
+  {{ end }}
 
   <!-- animals -->
   {{ with .Site.Data.homepage.dishes }}
