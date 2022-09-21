@@ -48,10 +48,10 @@
 
 
 
-  <!-- about -->
-  {{ if .Site.Data.homepage.about.enable }}
-    {{ with .Site.Data.homepage.about }}
-    <section class="section">
+  <!-- mission -->
+  {{ if .Site.Data.homepage.vision.enable }}
+    {{ with .Site.Data.homepage.vision }}
+    <section class="pt-5">
       <div class="container">
         <div class="row justify-content-around align-items-center">
           <div class="col-lg-5 col-md-6">
@@ -66,9 +66,30 @@
     </section>
     {{ end }}
   {{ end }}
-  <!-- /about -->
 
 
+  {{ if .Site.Data.homepage.mission.enable }}
+    {{ with .Site.Data.homepage.mission }}
+    <section class="">
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md-6 col-lg-5">
+            <h2>{{ .title | markdownify }}</h2>
+            {{ .content | safeHTML }}
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img class="img-fluid pb-4" src="{{ .image | absURL }}" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+  {{ end }}
+  <!-- /mission -->
+
+  {{ if .Site.Data.homepage.cta2.enable }}
+    {{ partial "cta2.html" . }}
+  {{ end }}
 
   <!-- promo video -->
   {{ if .Site.Data.homepage.video.enable }}
@@ -105,9 +126,7 @@
   <!-- /promo video -->
 
 
-  {{ if .Site.Data.homepage.cta2.enable }}
-    {{ partial "cta2.html" . }}
-  {{ end }}
+
 
   <!-- animals -->
   {{ with .Site.Data.homepage.dishes }}
@@ -119,7 +138,7 @@
             <h3 class="h5">{{ .subtitle | markdownify }}</h3>
           </div>
           {{ range .items }}
-          <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="col-lg-3 col-sm-6 mb-4">
             <div class="card border-0 text-center">
               <a href="{{ .link }}">
                 <img src="{{ .image | absURL }}" alt="{{ .name }}" class="card-img-top">
@@ -131,7 +150,7 @@
                   <span class="lead text-primary">{{ .Params.Price }}</span>
                   <s>{{ .Params.PriceBefore }}</s>
                 </div>
-                <a href="{{ .link }}" class="btn btn-sm btn-outline-primary">View</a>                        
+<!--                 <a href="{{ .link }}" class="btn btn-sm btn-outline-primary">View</a>                         -->
               </div>
             </div>
           </div>
@@ -215,33 +234,6 @@
 
 
 
-  <!-- advantage -->
-  {{ if .Site.Data.homepage.advantage.enable }}
-    {{ with .Site.Data.homepage.advantage }}
-      <section class="section mb-5">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h2>{{ .title | markdownify }}</h2>
-              <p class="mb-4">{{ .subtitle | markdownify }}</p>
-              <ul class="list-unstyled" style="columns: 2;">
-                {{ range .advantageList }}
-                <li class="mb-3"><i class="ti-arrow-circle-right text-primary mr-2"></i>{{ .listItem }}</li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-    {{ end }}
-  {{ end }}
-  <!-- /advantage -->
-
-
-
   {{ with .Site.Data.homepage.compare }}
     {{ partial "compare.html" . }}
   {{ end }}
@@ -287,6 +279,21 @@
     {{ end }}
   {{ end }}
   <!-- /testimonial -->
+
+
+  <!-- org -->
+  {{ if .Site.Data.homepage.org.enable }}
+    {{ with .Site.Data.homepage.org }}
+      <section class="section mb-5">
+        <div class="container text-center">
+          <h2 class="pb-4">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+          <img src="{{ .image | absURL}}" class="img-fluid " alt="">
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+  <!-- /advantage -->
 
 
 {{ end }}

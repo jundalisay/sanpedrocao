@@ -1,3 +1,33 @@
+Engr. Enrique H. Layola
+City Agriculturist
+Alexis Jesyl M. Bongat
+Agricultural Technologist
+Herbert R. Pingkian
+Agricultural Technologist
+Emmanuel Christian P. Dela Cruz
+Aquacultural Technologist
+Marvin P. Mandia
+Agricultural Technologist
+
+Clark Dave G. Amoranto
+Farm Worker
+Rodolfo D. Bergantiños
+Farm Worker
+Jojie H. Catalon
+Farm Worker
+
+Delfa J. Cobey
+Admin Aide
+
+Carlito M. Pepito
+Farm Worker
+Erwin Jason G. Valencia
+Clerk
+Michael R. Vito
+Admin Aide
+
+
+
                   <p class="quoted">{{ .content | markdownify }}</p>
 
 

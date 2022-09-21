@@ -2,8 +2,9 @@
 banner:
   enable : true
   title : "San Pedro City Agriculture Office (CAO)"
-  content: "Una sa Agrikultura, Bida sa Sampaguita -- First at Agriculture, The Best at Sampaguita"
-  image: "/photos/hydro02f.jpg"
+  content: "Una sa Agrikultura, Bida sa Sampaguita sa taon 2032 -- First at Agriculture, The Best at Sampaguita by 2032"
+  image: "/photos/sampag1.jpg"
+  # San Pedro Laguna Una sa Agrikultura at Bida sa Sampaguita 
   # image : "/graphics/kadiwaposter.jpg"
     # "/photos/farm.jpg"
   button1:
@@ -22,12 +23,17 @@ banner:
 
 
 ########################## About ##############################
-about:
+vision:
+  enable : true
+  title : "Our Vision"
+  content : "<p>We aim to make San Pedro Laguna as the first in agriculture and the best in sampaguita flowers by the year 2032</p>"
+  image : "/photos/hydro02f.jpg"
+
+mission:
   enable : true
   title : "Our Mission"
-  content : "<p>We promote local agriculture and the livelihood and welfare of local people</p>"
+  content : "<p>We are committed to provide the best services tothe farming communities and help ensures delivery of the accessible, affordable and quality food at all times for our city and to spread sweet fragrance of Sampaguita to neighboring cities.</p>" 
   image : "/photos/kadiwa09.jpg"
-
 
 
 ######################## Promo Video ##########################
@@ -78,22 +84,20 @@ cta:
 
 cta2:
   enable : true
-  title : "Both for Buyers and Sellers"
-  content : "Are you looking for a specific type of property? Post it here"
-  image : "/photos/looking.jpg"
+  title : "Free Seeds and Seedlings"
+  content : "We give free seeds and seedlings to San Pedro residents"
+  image : "/photos/seedling2.jpg"
 #   # overlayImage : "images/cta-overlay.png"
   button:
-    label : "Tell us what you're looking for"
+    label : "Inquire how to get them"
     link : "/contact"
 
 cta3:
   enable : true
-  title : "We Support the Pantrypoints System"
-  content : "We can do property-related tasks for you without you spending any money"
-  image : "/graphics/mobile.jpg"
-  button:
-   label : "What's Pantrypoints?"
-   link : "https://pantrypoints.com"
+  title : "Soon to Rise: A Sampaguita Nursery"
+  content : "Check out the new Sampaguita Nursery at Tirad Pass Street"
+  image : "/graphics/mapnursery.jpg"
+
 
 # cta4:
 #   enable : true
@@ -123,31 +127,46 @@ events:
 
 dishes:
   enable : true
-  title : "The Popular Produce at the San Pedro Weekend Bazaar"
-  subtitle: "Ask us for orders or learn how to grow them yourselves"
+  title : "Our Parameters"
+  # subtitle: "Ask us for orders or learn how to grow them yourselves"
   items :
-    - name: "Tomatoes" 
-      image: "/photos/tomato.jpg"
-      description: "By The San Pedro Fish and Vegetable Vendors Association"
+    - name: "Accessibility" 
+      image: "/photos/flac01c.jpg"
+      description: "Our products and services must be accessible to the people"
       link: "/products/tomatoes"
-    - name: "Native Red Onion"
-      image: "/photos/redonion.jpg"
-      description: "By Luntian MPC"      
+    - name: "Affordability"
+      image: "/photos/peso.jpg"
+      description: "The people must be able to afford food and produce"      
       link: "/products/red-onions"
-    - name: "Potatoes" 
+    - name: "Food Safety" 
       image: "/photos/potatoes.jpg"
-      description: "By The Rosario Livestock and Agriculture Farming Cooperative"
-      link: "/products/potatoes"      
-
+      description: "Food must be free from harmful toxins, bacteria, and chemicals"
+      link: "/products/potatoes"   
+    - name: "Availability" 
+      image: "/photos/tomato.jpg"
+      description: "Crops and produce must be available when the people need them"
+      # link: "/products/tomatoes"
+    - name: "Sustainability"
+      image: "/photos/tree.jpg"
+      description: "Agricultural practices must be in line with nature and the environment"      
+      #link: "/products/red-onions"
+    - name: "Creativity" 
+      image: "/photos/hydro02f.jpg"
+      description: "New techniques must be developed in agriculture"
+      # link: "/products/potatoes"
+    - name: "Adaptability" 
+      image: "/photos/field.jpg"
+      description: "The agriculture of the present and the future must be able to adapt to climate change"
+      # link: "/products/potatoes"
 
 
 ########################### Advantage #########################
 
-advantage:
-  enable : false
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+org:
+  enable : true
+  title : "Organizational Structure"
+  # subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "graphics/org.png"
   advantageList:
     # advantage list loop
     - listItem : "Extremely lightweight"
@@ -171,41 +190,34 @@ testimonial:
   enable : true
   title : "Meet Your Agriculture Officers"
   testimonialItem:
-    - name : "Engineer King Layola"
+    - name : "Engineer Enrique H. Layola"
       image : "avatars/blankavatar.png" # size 100px*100px
-      designation : "Head"
+      designation : "City Agriculturist"
       content : "Engineer Layola graduated with an engineering degree and has passionately worked in agriculture for many years."
       linkedin: "https://linkedin.com"      
       # rating : "five" # rating star, one to five
             
-    - name : "Staff"
+    - name : "Alexis Jesyl M. Bongat"
       image : "avatars/blankavatar.png" # size 100px*100px
-      designation : "Staff"
-      content : "Staff"
+      designation : "Agricultural Technologist"
+      content : "Alexis Jesyl M. Bongat is an Agricultural Technologist"
       linkedin: "https://linkedin.com"      
       # rating : "five" # rating star, one to five
 
-    - name : "Staff"
+    - name : "Herbert R. Pingkian"
       image : "avatars/blankavatar.png" # size 100px*100px
-      designation : "Staff"
-      content : "Staff"
+      designation : "Agricultural Technologist"
+      content : "Herbert R. Pingkian is an Agricultural Technologist"
       linkedin: "https://linkedin.com"      
-      # rating : "five" # rating star, one to five                  
-    # - name : "John"
-    #   image : "avatars/john.jpg" # size 100px*100px
-    #   designation : "English Teacher"
-    #   content : "I buy fish from Savilas because they care about the environment"
-    #   rating : "four" # rating star, one to five
-      
-    # - name : "Lam"
-    #   image : "avatars/lam.jpg" # size 100px*100px
-    #   designation : "Student"
-    #   content : "We learned how to grow lettuce and earn money from it"
-    #   rating : "four" # rating star, one to five
-      
-    # - name : "Juan"
-    #   image : "avatars/jun.jpg" # size 100px*100px
-    #   designation : "Web Developer"
-    #   content : " diners."
-    #   rating : "four" # rating star, one to five
-      
+
+    - name : "Emmanuel Christian P. Dela Cruz"
+      image : "avatars/blankavatar.png" # size 100px*100px
+      designation : "Aquacultural Technologist"
+      content : "Emmanuel Christian P. Dela Cruz is an Aquacultural Technologist"
+      linkedin: "https://linkedin.com"            
+
+    - name : "Marvin P. Mandia"
+      image : "avatars/blankavatar.png" # size 100px*100px
+      designation : "Agricultural Technologist"
+      content : "Marvin P. Mandia is an Agricultural Technologist"
+      linkedin: "https://linkedin.com"            
