@@ -17,7 +17,7 @@ banner:
   video:
     enable : true
     btntxt: "See what the San Pedro CAO does"
-    # videoURL : "https://www.youtube.com/embed/oN79S5f96qk"
+    videoURL : "https://www.youtube.com/embed/3WUmDnQN4_A"
     # aWYWcJZoqBM"
     # Lin recommend https://youtu.be/hAWOU9Kw1bo
 
@@ -39,16 +39,18 @@ mission:
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "On the forefront of the fight against the food crisis"
-  content: "<p>We work non-stop to ensure food security for San Pedro Laguna.</p>
+  title : "San Pedro Una Sa Sampaguita"
+  content: "<p>We aim to be the top sampaguita producer in the Philippines by 2023.</p>
   " 
   # <p>Cebuanos have been well-known for roasting lechon in a way that is flavorful, tasty, and mouth-watering, 
   # with meat that is tender, juicy, and aromatic, with a crispy-skin.</p>"    
   # content : "To establish a sustainable animal shelter and build a community where people care for animals and treat them with respect and kindness."
   # Angel's Shelter is an holistic animal shelter in Laguna. Holistic means that we don't only do animal resuce and adoption, but also community-building events, healthy eating, humanistic learning, and social work"
-  videoThumb : "/photos/kadiwatruck.jpg"
+  videoThumb : "/photos/sampag1.jpg"
+  # videoThumb : "/photos/kadiwatruck.jpg"
+  videoURL : "https://www.youtube.com/embed/qJJR2TytOKU"
   # videoURL : "https://www.youtube.com/embed/TyM66AMwOlk"
-
+  #  sampa
   # "https://www.youtube.com/embed/bkabicdixSM"
   # videoURL : "https://www.youtube.com/embed/VSaoTSxSvw0"
 
@@ -191,7 +193,7 @@ testimonial:
   title : "Meet Your Agriculture Officers"
   testimonialItem:
     - name : "Engineer Enrique H. Layola"
-      image : "avatars/blankavatar.png" # size 100px*100px
+      image : "avatars/layola.jpg" # size 100px*100px
       designation : "City Agriculturist"
       content : "Engineer Layola graduated with an engineering degree and has passionately worked in agriculture for many years."
       linkedin: "https://linkedin.com"      
