@@ -26,6 +26,11 @@ Clerk
 Michael R. Vito
 Admin Aide
 
+# images:
+#   - image: "graphics/price1.jpg"
+#   - image: "graphics/price2.jpg"
+#   - image: "graphics/price3.jpg"    
+
 
 
                   <p class="quoted">{{ .content | markdownify }}</p>
