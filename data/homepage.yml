@@ -207,7 +207,7 @@ testimonial:
       # rating : "five" # rating star, one to five
 
     - name : "Herbert R. Pingkian"
-      image : "avatars/blankavatar.png" # size 100px*100px
+      image : "avatars/herb.jpg" # size 100px*100px
       designation : "Agricultural Technologist"
       content : "Herbert R. Pingkian is an Agricultural Technologist"
       linkedin: "https://linkedin.com"      
