@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://sanpedrocityagri.org/"
+baseURL = "https://www.sanpedrocityagri.org/"
 # baseURL = "https://sanpedro.pantrypoints.tokyo"
 languageCode = "en-us"
 title = "San Pedro City Agricultural Office Laguna"
@@ -8,6 +8,12 @@ summaryLength = "20"
 paginate = 9
 
 canonifyurls = true
+
+
+[assets]
+  disableFingerprinting = true
+
+
 
 ############################# Plugins ##############################
 [params.plugins]
